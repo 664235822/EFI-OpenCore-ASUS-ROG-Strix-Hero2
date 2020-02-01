@@ -873,9 +873,9 @@
 			<key>PowerTimeoutKernelPanic</key>
 			<true/>
 			<key>ThirdPartyDrives</key>
-			<false/>
-			<key>XhciPortLimit</key>
 			<true/>
+			<key>XhciPortLimit</key>
+			<false/>
 		</dict>
 	</dict>
 	<key>Misc</key>
