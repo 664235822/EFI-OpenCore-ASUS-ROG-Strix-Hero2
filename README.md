@@ -28,6 +28,8 @@ Asus ROG Strix Hero II GL504GM
 * 电池驱动已正常
 * 睡眠唤醒已解决
 * 开机黑屏3分钟已解决
+* 已开启原生NVRAM
+* 引导菜单使用官方主题
 
 ## 使用方法
 * 开机启动项需要自行下载OpenCore源文件，使用BOOT/BOOTx64.efi才能正常使用，OC/OpenCore.efi无效
