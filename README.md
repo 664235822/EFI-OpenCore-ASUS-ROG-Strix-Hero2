@@ -11,7 +11,6 @@ Asus ROG Strix Hero II GL504GM
 * 独立显卡：GeForce GTX 1060 (6 GB)
 * 声卡：Realtek ALC294
 * 无线网卡：Intel(R) Wireless-AC 9560
-* USB无线网卡：Realtek RTL8188CU
 * 有线网卡：Realtek RTL8111H PCI Express Gigabit Ethernet
 
 ## 黑苹果安装情况
@@ -20,7 +19,7 @@ Asus ROG Strix Hero II GL504GM
 * 独立显卡已禁用
 * 声卡驱动成功（id=21）
 * 外放耳机切换正常，但是切换回外放后会有爆音
-* 无线网卡无解（使用USB网卡）
+* 无线网卡已驱动
 * 有线网卡已驱动
 * 蓝牙正常（可正常开关）
 * 亮度调节正常
@@ -34,3 +33,4 @@ Asus ROG Strix Hero II GL504GM
 ## 使用方法
 * 开机启动项需要自行下载OpenCore源文件，使用BOOT/BOOTx64.efi才能正常使用，OC/OpenCore.efi无效
 * 设置的是自动启动，查看选项请在启动时一直按Alt键
+* Wifi管理软件[https://github.com/OpenIntelWireless/HeliPort](url)
