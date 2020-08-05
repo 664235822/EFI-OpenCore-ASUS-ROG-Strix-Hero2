@@ -33,4 +33,5 @@ Asus ROG Strix Hero II GL504GM
 ## 使用方法
 * 开机启动项需要自行下载OpenCore源文件，使用BOOT/BOOTx64.efi才能正常使用，OC/OpenCore.efi无效
 * 设置的是自动启动，查看选项请在启动时一直按Alt键
+* 声卡无声音的请设置BIOS`Advanced->Animation Post Logo Configuration->Animation Post Logo Audio`为`Disabled`
 * Wifi管理软件[https://github.com/OpenIntelWireless/HeliPort](url)
