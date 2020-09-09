@@ -19,7 +19,7 @@ Asus ROG Strix Hero II GL504GM
 * 独立显卡已禁用
 * 声卡驱动成功（id=21）
 * 外放耳机切换正常，但是切换回外放后会有爆音
-* 无线网卡已驱动
+* 无线网卡已驱动，支持原生Wifi管理
 * 有线网卡已驱动
 * 蓝牙正常（可正常开关）
 * 亮度调节正常
@@ -34,4 +34,3 @@ Asus ROG Strix Hero II GL504GM
 * 开机启动项需要自行下载OpenCore源文件，使用BOOT/BOOTx64.efi才能正常使用，OC/OpenCore.efi无效
 * 设置的是自动启动，查看选项请在启动时一直按Alt键
 * 声卡无声音的请设置BIOS`Advanced->Animation Post Logo Configuration->Animation Post Logo Audio`为`Disabled`
-* Wifi管理软件[https://github.com/OpenIntelWireless/HeliPort](https://github.com/OpenIntelWireless/HeliPort)
