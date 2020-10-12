@@ -466,29 +466,29 @@
 		<dict>
 			<key>PciRoot(0x0)/Pci(0x1F,0x3)</key>
 			<dict>
+				<key>model</key>
+				<string>Cannon Lake PCH cAVS</string>
 				<key>AAPL,slot-name</key>
 				<string>Internal@0,31,3</string>
+				<key>layout-id</key>
+				<data>FQAAAA==</data>
 				<key>device_type</key>
 				<string>Audio device</string>
 				<key>hda-gfx</key>
 				<string>onboard-2</string>
-				<key>layout-id</key>
-				<data>FQAAAA==</data>
-				<key>model</key>
-				<string>Cannon Lake PCH cAVS</string>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
+				<key>hda-gfx</key>
+				<string>onboard-1</string>
 				<key>AAPL,ig-platform-id</key>
 				<data>AACbPg==</data>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,2,0</string>
 				<key>device_type</key>
 				<string>VGA compatible controller</string>
 				<key>disable-external-gpu</key>
 				<data>AQAAAA==</data>
-				<key>hda-gfx</key>
-				<string>onboard-1</string>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,2,0</string>
 				<key>model</key>
 				<string>Intel UHD Graphics 630 (Mobile)</string>
 			</dict>
@@ -974,6 +974,12 @@
 			<data></data>
 			<key>Cpuid1Mask</key>
 			<data></data>
+			<key>DummyPowerManagement</key>
+			<false/>
+			<key>MaxKernel</key>
+			<string></string>
+			<key>MinKernel</key>
+			<string></string>
 		</dict>
 		<key>Force</key>
 		<array>
@@ -983,7 +989,7 @@
 				<key>BundlePath</key>
 				<string>System/Library/Extensions/IONetworkingFamily.kext</string>
 				<key>Comment</key>
-				<string>Patch engine</string>
+				<string></string>
 				<key>Enabled</key>
 				<false/>
 				<key>ExecutablePath</key>
@@ -1196,16 +1202,18 @@
 			<key>DisableIoMapper</key>
 			<false/>
 			<key>DisableLinkeditJettison</key>
-			<false/>
+			<true/>
 			<key>DisableRtcChecksum</key>
 			<false/>
-			<key>DummyPowerManagement</key>
+			<key>ExtendBTFeatureFlags</key>
 			<false/>
 			<key>ExternalDiskIcons</key>
 			<false/>
 			<key>IncreasePciBarSize</key>
 			<false/>
 			<key>LapicKernelPanic</key>
+			<false/>
+			<key>LegacyCommpage</key>
 			<false/>
 			<key>PanicNoKextDump</key>
 			<true/>
@@ -1386,16 +1394,16 @@
 			<dict>
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
-				<key>boot-args</key>
-				<string>darkwake=0</string>
-				<key>bootercfg</key>
-				<string>log=0 debug=0 level=0</string>
-				<key>csr-active-config</key>
-				<data>AAAAAA==</data>
 				<key>nvda_drv</key>
 				<data>MQ==</data>
+				<key>bootercfg</key>
+				<string>log=0 debug=0 level=0</string>
+				<key>boot-args</key>
+				<string>darkwake=0</string>
 				<key>prev-lang:kbd</key>
 				<data>emgtSGFuczoyNTI=</data>
+				<key>csr-active-config</key>
+				<data>AAAAAA==</data>
 			</dict>
 		</dict>
 		<key>Delete</key>
@@ -1457,6 +1465,10 @@
 			<false/>
 			<key>MLB</key>
 			<string>C02952130GUJP4FJA</string>
+			<key>ProcessorType</key>
+			<integer>0</integer>
+			<key>SystemMemoryStatus</key>
+			<string>Auto</string>
 			<key>ROM</key>
 			<data>rmDDFWWe</data>
 			<key>SpoofVendor</key>
@@ -1517,6 +1529,7 @@
 		<array>
 			<string>AudioDxe.efi</string>
 			<string>CrScreenshotDxe.efi</string>
+			<string>HFSPlus.efi</string>
 			<string>HiiDatabase.efi</string>
 			<string>NvmExpressDxe.efi</string>
 			<string>OpenCanopy.efi</string>
@@ -1525,7 +1538,6 @@
 			<string>Ps2MouseDxe.efi</string>
 			<string>UsbMouseDxe.efi</string>
 			<string>XhciDxe.efi</string>
-			<string>HFSPlus.efi</string>
 		</array>
 		<key>Input</key>
 		<dict>
@@ -1640,6 +1652,20 @@
 				<false/>
 				<key>Size</key>
 				<integer>268435456</integer>
+				<key>Type</key>
+				<string>Reserved</string>
+			</dict>
+			<dict>
+				<key>Address</key>
+				<integer>569344</integer>
+				<key>Comment</key>
+				<string>Fix black screen on wake from hibernation for Lenovo Thinkpad T490</string>
+				<key>Enabled</key>
+				<false/>
+				<key>Size</key>
+				<integer>4096</integer>
+				<key>Type</key>
+				<string>RuntimeCode</string>
 			</dict>
 		</array>
 	</dict>
