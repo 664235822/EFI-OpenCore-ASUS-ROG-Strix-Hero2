@@ -3,6 +3,7 @@
 
 ## 我的机型
 Asus ROG Strix Hero II GL504GM
+机型选择 MacBookPro15.3
 
 ## 我的配置
 * CPU：Intel Core i7-8750H，3900MHz
@@ -28,6 +29,7 @@ Asus ROG Strix Hero II GL504GM
 * 睡眠唤醒已解决
 * 开机黑屏3分钟已解决
 * 已开启原生NVRAM
+* 已支持USB3.0
 * 引导菜单使用官方主题
 
 ## 使用方法
