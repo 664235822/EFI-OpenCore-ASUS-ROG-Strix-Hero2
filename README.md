@@ -2,8 +2,8 @@
 华硕玩家国度ROG魔霸2自用黑苹果OpenCore引导
 
 ## 我的机型
-Asus ROG Strix Hero II GL504GM
-机型选择 MacBookPro15.3
+* Asus ROG Strix Hero II GL504GM
+* 机型选择 MacBookPro15.3
 
 ## 我的配置
 * CPU：Intel Core i7-8750H，3900MHz
