@@ -24,15 +24,14 @@
 * 有线网卡已驱动
 * 蓝牙正常（可正常开关）
 * 亮度调节正常
+* 亮度调节快捷键未正确映射
 * 触摸板已驱动
 * 电池驱动已正常
-* 睡眠唤醒已解决
-* 开机黑屏3分钟已解决
+* 睡眠唤醒无解，会立即唤醒
 * 已开启原生NVRAM
-* 已支持USB3.0
+* 已支持USB3.0，最快速度达5Gbps
 * 引导菜单使用官方主题
 
 ## 使用方法
-* 开机启动项需要自行下载OpenCore源文件，使用BOOT/BOOTx64.efi才能正常使用，OC/OpenCore.efi无效
 * 设置的是自动启动，查看选项请在启动时一直按Alt键
 * 声卡无声音的请设置BIOS`Advanced->Animation Post Logo Configuration->Animation Post Logo Audio`为`Disabled`
