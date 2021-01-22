@@ -8,7 +8,7 @@
 
 ## 我的配置
 * CPU：Intel Core i7-8750H，3900MHz
-* 内存：16 GB 2667 MHz DDR4
+* 内存：32 GB 2667 MHz DDR4
 * 集成显卡：Intel(R) UHD Graphics 630 (1 GB)
 * 独立显卡：GeForce GTX 1060 (6 GB)
 * 声卡：Realtek ALC294
