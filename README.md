@@ -30,10 +30,9 @@
 * 睡眠唤醒已正常
 * 已开启原生NVRAM
 * 已支持USB3.0，最快速度达5Gbps
-* 不支持Windows系统启动
+* 已支持Windows系统启动
 * 引导菜单使用官方主题
 
 ## 使用方法
-* 设置的是自动启动，查看选项请在启动时一直按`Alt`键
 * 声卡无声音的请设置BIOS`Advanced`->`Animation Post Logo Configuration`->`Animation Post Logo Audio`为`Disabled`
 * 亮度快捷键可在系统偏好设置里自定义为`F7/F8`
