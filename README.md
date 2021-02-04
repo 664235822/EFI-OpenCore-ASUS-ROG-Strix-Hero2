@@ -1,6 +1,6 @@
 # EFI-OpenCore
 华硕玩家国度ROG魔霸2自用黑苹果OpenCore引导
-* OpenCore版本 `0.6.5`
+* OpenCore版本 `0.6.6`
 
 ## 我的机型
 * Asus ROG Strix Hero II GL504GM
@@ -35,5 +35,6 @@
 * 引导菜单使用官方主题
 
 ## 使用方法
+* 请设置BIOS启动项为`EFI\OC\OpecCore.efi`
 * 声卡无声音的请设置BIOS`Advanced`->`Animation Post Logo Configuration`->`Animation Post Logo Audio`为`Disabled`
 * 亮度快捷键可在系统偏好设置里自定义为`F7/F8`
