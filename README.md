@@ -1,6 +1,6 @@
 # EFI-OpenCore
 华硕玩家国度ROG魔霸2自用黑苹果OpenCore引导
-* OpenCore版本 `0.7.0`
+* OpenCore版本 `0.7.1`
 
 ## 我的机型
 * Asus ROG Strix Hero II GL504GM
